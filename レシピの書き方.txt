@@ -1,0 +1,6 @@
+{
+		GameRegistry.addRecipe(new ItemStack(Core.作るアイテム名),
+				new Object[]{ "XXX","Y","　Y　",
+			    Character.valueOf('X'), "ingotTron(Xに入る素材)",
+				Character.valueOf('Y'), "ItemStick(Yに入れるアイテム)",
+		});
