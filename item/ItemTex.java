@@ -13,7 +13,10 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 public class ItemTex extends Item {
 
-
+	public ItemTex(int par1) {
+		super(par1);
+		// TODO 自動生成されたコンストラクター・スタブ
+	}
 
 
 	protected String[] ItemTextureStrings = {
