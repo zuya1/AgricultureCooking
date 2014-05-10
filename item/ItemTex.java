@@ -1,21 +1,37 @@
 package AgricultureCooking.item;
 
 
+<<<<<<< HEAD
 import net.minecraft.item.Item;
+=======
+import java.util.List;
+
+import net.minecraft.client.renderer.texture.IconRegister;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+>>>>>>> a7c7472313298c1b99bebd76f12fb12c6aaabd8a
 import net.minecraft.util.Icon;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
 public class ItemTex extends Item {
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> a7c7472313298c1b99bebd76f12fb12c6aaabd8a
 	public ItemTex(int par1) {
 		super(par1);
 		// TODO 自動生成されたコンストラクター・スタブ
 	}
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a7c7472313298c1b99bebd76f12fb12c6aaabd8a
 	protected String[] ItemTextureStrings = {
 			/*	Vegetable*/"Eggplant", "Tomato","RedPepper","Pepino","GreenPepper","Paprika",
 			"courgette","Cucumber","Bittergourd","Okra","Wintermelon",
@@ -58,4 +74,11 @@ public class ItemTex extends Item {
 		  return ItemTextures[metadata];
 		 }
 
+<<<<<<< HEAD
+=======
+	@Override
+	public int getItemStackLimit(ItemStack stack) {
+		return stack.getItemDamage() == this.ItemNamesStrings.length - 1 ? 64 : 1;
+	}
+>>>>>>> a7c7472313298c1b99bebd76f12fb12c6aaabd8a
 }
